@@ -4,10 +4,12 @@
     text-decoration: none;
     margin: 0 auto;
     padding: 0;
-    /* border: 1px solid red; */
+}
+#root{
+    max-width: 1380px;
+    padding: 0 40px;
 }
 .container{
     max-width: 1300px;
     width: 100%;
-    border: 1px solid red;
 }
