@@ -18,7 +18,7 @@
     margin-left: 0;
 }
 .header-link{
-    max-width: 330px;
+    max-width: 350px;
     width: 100%;
     height: 50px;
     display: flex;
@@ -38,10 +38,19 @@ line-height: 100%; /* 16px */
     color: #b0cc0d;
     text-decoration: underline;
 }
+.hl-item:nth-child(1){
+    margin-left: 0;
+}
 .hl-item:nth-child(1)>a{
     width: 118px;
     display: flex;
     align-items: center;
+    color: #302929;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
 }
 .hl-item:nth-child(3)>a{
 width: 140px;
@@ -77,4 +86,10 @@ padding-right: 20px;
     border: none;
     cursor: pointer;
     outline: none;
+    color: #302929;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
 }
