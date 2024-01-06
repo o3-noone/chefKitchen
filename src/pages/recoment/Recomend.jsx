@@ -1,9 +1,10 @@
-import "./recslider.css";
+import "./recomend.css";
 import img1 from "./images/3698.png"
 import img2 from "./images/1933.png"
-function Recslider() {
-  return (
-    <div className="rec-slide">
+
+function Recoment(){
+    return(
+<div className="rec-slide">
       <div className="recSlide">
         <div className="container">
           <div className="recomend">
@@ -23,6 +24,7 @@ function Recslider() {
         </div>
       </div>
     </div>
-  );
+
+    )
 }
-export default Recslider;
+export default Recoment
