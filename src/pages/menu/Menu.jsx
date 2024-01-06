@@ -1,6 +1,7 @@
 import "./menu.css";
 import img from "./images/3387.png";
 import img2 from "./images/as.png";
+import img3 from "./images/3386.png";
 import icon1 from "./images/icon1.svg";
 import icon2 from "./images/icon2.svg";
 import icon3 from "./images/icon3.svg";
@@ -199,9 +200,8 @@ function Menu() {
                 </span>
               </div>
             </div>
-            <div className="menu-items-btn2">
-            Order now 
-            </div>
+            <div className="menu-items-btn2">Order now</div>
+            <img id="menu-img4" src={img3} alt="images" />
           </div>
         </div>
       </div>

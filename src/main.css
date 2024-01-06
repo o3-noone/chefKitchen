@@ -5,15 +5,10 @@
     margin: 0 auto;
     padding: 0;
 }
-.wrapper{
-    max-width: 1280px;
-    padding: 0 40px;
-    /* border: 1px solid green; */
-}
 .container{
     max-width: 1200px;
     width: 100%;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 ::-webkit-scrollbar {
     width: 0.01px;

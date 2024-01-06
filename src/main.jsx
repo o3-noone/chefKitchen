@@ -5,9 +5,7 @@ import Header from './pages/header/Header.jsx'
 import "./main.css"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='wrapper'>
     <Header/>
     <App />
-    </div>
   </React.StrictMode>,
 )

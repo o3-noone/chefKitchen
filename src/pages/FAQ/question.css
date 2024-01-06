@@ -1,0 +1,264 @@
+.FAQ {
+  width: 100%;
+}
+.FAQ-title {
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.FAQ-list {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.FAQ-item {
+  width: 183px;
+  height: 165px;
+  border-radius: 28px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  padding-top: 43px;
+  cursor: pointer;
+}
+.FAQ-item:hover {
+  color: #b0cc0d;
+  box-shadow: 0px 0px 24px 3px rgba(0, 0, 0, 0.13);
+}
+.FAQ-item > i {
+  width: 55px;
+  height: 55px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.FAQ-itemActive {
+  color: #fff;
+  background: #b0cc0d;
+  box-shadow: 0px 0px 11px -4px rgba(0, 0, 0, 0.25);
+}
+.FAQ-itemActive:hover {
+  color: #fff;
+}
+.FAQ-itemDeActive {
+  background: #f4f4f4;
+  color: #000;
+}
+.FAQ-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.FAQ-box-item {
+  width: 100%;
+  height: 99px;
+  border-bottom: 3px solid #b0b0b0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.FAQ-box-item:hover .box-h4 {
+  color: #b0cc0d;
+}
+.FAQ-box-item:hover .box-p {
+  display: block;
+  margin-top: -20px;
+}
+.FAQ-box-item:hover {
+  min-height: 162px;
+}
+.box-h4 {
+  width: 100%;
+  color: #302929;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-left: 0;
+}
+.box-p {
+  max-width: 773px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-left: 0;
+  margin-top: 10px;
+  display: none;
+}
+
+.section {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+.sec-left {
+  margin-left: 0;
+}
+.sec-leftImg {
+  width: 400px;
+  background-image: url("/src/pages/FAQ/images/FrameBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 380px;
+}
+.sec-right {
+  max-width: 800px;
+  width: 100%;
+  min-height: 250px;
+  
+  margin-right: 0;
+  display: flex;
+}
+.sec-right1 {
+  margin-left: 0;
+}
+.sec-right1 > h3 {
+  color: #b0cc0d;
+  width: 330px;
+  font-family: Montserrat;
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-left: 0;
+}
+.sec-right1 > p {
+  color: #000;
+  width: 387px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-left: 0;
+  margin-top: 15px;
+}
+.sec-right2 {
+  width: 388px;
+  margin-right: 0;
+  
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec-right2 > img {
+  position: absolute;
+  transform: rotate(170deg);
+  right: 0;
+  top: -70px;
+}
+#nameRight {
+  padding: 18px;
+  width: 169px;
+  height: 55px;
+  color: #656565;
+  border: none;
+  outline: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  border-radius: 32px;
+  background: #f4f4f4;
+  margin-left: 0;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+#numberRight {
+  width: 206px;
+  color: #656565;
+  height: 55px;
+  border: none;
+  outline: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  border-radius: 32px;
+  padding-left: 12px;
+  margin-right: 0;
+  background: #f4f4f4;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+#emailRight{
+    width: 388px;
+    height: 55px;
+    border-radius: 32px;
+background: #F4F4F4;
+border: none;
+outline: none;
+color: #656565;
+padding: 18px;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+#btn1Right{
+    width: 202px;
+    color: #FFF;
+height: 55px;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+border-radius: 32px;
+background: #FFA800;
+border: none;
+outline: none;
+margin-left: 0;
+cursor: pointer;
+}
+#btn2Right{
+    width: 83px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    border-radius: 32px;
+background: #B0CC0D;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+border: none;
+outline: none;
+margin-left: -90px;
+cursor: pointer;
+}
+#textBtn{
+    display: none;
+}
+#btn2Right>i{
+    font-size: 25px;
+}
+#btn2Right:hover{
+    width: 180px;
+    margin: 0;
+}
+#btn2Right:hover #textBtn{
+display: block;
+}

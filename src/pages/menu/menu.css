@@ -192,6 +192,13 @@
   cursor: pointer;
   margin-left: -25px;
 }
+.mList-btn:hover{
+  color: #FFA800;
+}
+.fa-arrow-left-long:hover{
+  border: 3px solid #ffa800;
+  
+}
 .mList-btn > i {
   width: 45px;
   height: 45px;
@@ -268,110 +275,121 @@
   font-weight: 500;
   line-height: 120%;
 }
-.mBox-item>p{
-    color: #0A0909;
-font-family: Montserrat;
-font-size: 12px;
-font-style: normal;
-font-weight: 300;
-line-height: 180%;
-padding-left: 13px;
+.mBox-item > p {
+  color: #0a0909;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 180%;
+  padding-left: 13px;
 }
-.menu-items-deck{
-    width: 100%;
+.menu-items-deck {
+  width: 100%;
 }
-.menu-items-deck>p{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; 
+.menu-items-deck > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
-.menu-items-total{
-    width: 100%;
-    height: 80px;
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-    padding: 0 13px;
-    background-color: #FFF;
-    border-radius: 15px;
+.menu-items-total {
+  width: 100%;
+  height: 80px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 13px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.menu-items-btn1 {
+  width: 203px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #ffa800;
+  box-shadow: 0px 0px 7px 0px rgba(255, 168, 0, 0.54);
+  color: white;
+  margin-left: 0;
+  cursor: pointer;
+}
+.menu-items-btn1:hover {
+  background-color: #b0cc0d;
+}
+.menu-items-btn1 > i:nth-child(1) {
+  font-size: 35px;
+}
+.menu-items-btn1 > i:nth-child(2) {
+  font-size: 25px;
+}
+.mItem-text {
+  width: 104px;
+}
+.mItem-text > p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.menu-item-total {
+  width: 80px;
+  color: #000;
+}
+.menu-item-numbers {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-item-number {
+  display: flex;
+  align-items: center;
+  min-width: 95px;
+  height: 100%;
+}
+.menu-item-number > span > h4 {
+  color: #000;
 
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
 }
-.menu-items-btn1{
-    width: 203px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-background: #FFA800;
-box-shadow: 0px 0px 7px 0px rgba(255, 168, 0, 0.54);
-color: white;
-margin-left: 0;
+.menu-item-number > span > p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 }
-.menu-items-btn1>i:nth-child(1){
-    font-size: 35px;
+.menu-items-btn2 {
+  color: #fff;
+  width: 241px;
+  padding: 18px 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  border-radius: 32px;
+  background: #ffa800;
+  text-align: center;
+  cursor: pointer;
 }
-.menu-items-btn1>i:nth-child(2){
-    font-size: 25px;
-}
-.mItem-text{
-width: 104px;
-}
-.mItem-text>p{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-text-decoration-line: underline;
-text-transform: uppercase;
-}
-.menu-item-total{
-    width: 80px;
-    color: #000;
-}
-.menu-item-numbers{
-    width: 400px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.menu-item-number{
-    display: flex;
-    align-items: center;
-    min-width: 95px;
-    height: 100%;
-}
-.menu-item-number>span>h4{
-    color: #000;
+#menu-img4{
+  position: absolute;
+  transform: rotate(-70deg);
+  right: 40%;
+  bottom: -80px;
+  pointer-events: none;
 
-font-family: Montserrat;
-font-size: 26px;
-font-style: normal;
-font-weight: 800;
-line-height: 120%; 
-}
-.menu-item-number>span>p{
-    color: #000;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 120%;
-}
-.menu-items-btn2{
-    color: #FFF;
-width: 241px;
-padding: 18px 0;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%;
-border-radius: 32px;
-background: #FFA800;
-text-align: center;
-cursor: pointer;;
 }
