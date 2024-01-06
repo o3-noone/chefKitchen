@@ -3,14 +3,14 @@ import Question from "./pages/FAQ/Question";
 import Delivery from "./pages/deliver/Deliver";
 import Hero from "./pages/hero/Hero";
 import Menu from "./pages/menu/Menu";
-import RecSlider from "./pages/recSlider/RecSlider";
+import Recslider from "./pages/recslider/Recslider";
 function App() {
   return (
     <>
       <Hero />
       <Menu />
       <Delivery />
-      <RecSlider/>
+      <Recslider/>
       <Question/>
     </>
   );

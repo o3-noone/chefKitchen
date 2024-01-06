@@ -1,7 +1,7 @@
-import "./RecSlider.css";
+import "./recslider.css";
 import img1 from "./images/3698.png"
 import img2 from "./images/1933.png"
-function RecSlider() {
+function Recslider() {
   return (
     <div className="rec-slide">
       <div className="recSlide">
@@ -25,4 +25,4 @@ function RecSlider() {
     </div>
   );
 }
-export default RecSlider;
+export default Recslider;
