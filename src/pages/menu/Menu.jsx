@@ -43,6 +43,7 @@ function Menu() {
         <div className="menu-items">
           <img id="menu-img1" src={img} alt="images" />
           <div className="mBox-btns">
+            <div className="MboxBtn">
             <div className="mBox-btn mBox-active">Monday</div>
             <div className="mBox-btn">Tuesday</div>
             <div className="mBox-btn">Wednesday</div>
@@ -50,6 +51,7 @@ function Menu() {
             <div className="mBox-btn">Friday</div>
             <div className="mBox-btn">Saturday</div>
             <div className="mBox-btn">Sunday</div>
+            </div>
             <div className="mBox-leftRight">
               <div className="mBox-left">
                 <i class="fa-solid fa-arrow-left-long"></i>

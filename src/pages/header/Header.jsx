@@ -4,6 +4,7 @@ function Header() {
   return (
     <div className="container">
       <div className="header">
+       
         <div className="header-logo">
           <a href="#"><img src={logo} alt="logo" /></a>
         </div>
@@ -26,6 +27,9 @@ function Header() {
           <div className="hl-item">
             <a href="#"><i class="fa-regular fa-user"></i>sign in</a>
           </div>
+          <div className="h-burger">
+        <i class="fa-solid fa-bars-staggered"></i>
+        </div>
         </div>
       </div>
     </div>
